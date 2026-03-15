@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Controle Portaria</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+
+        <div class="painel-portaria">
+            <h2>Pagode no Grajaú 🎶</h2>
+            <p>Sistema de Controle de Portaria</p>
+            <input type="number" id="idadeCandidato" placeholder="Qual a idade do cliente?">
+            <select id="vipSelect">
+                <option value="vazio">O nome tá na Lista VIP?</option>
+                <option value="sim">Sim, tá na lista</option>
+                <option value="nao">Não, chegou de gaiato</option>
+            </select>
+
+            <button onclick="checarEntrada()">Liberar Catraca</button>
+            <p id="mensagemPortaria" class="resposta"></p>
+        </div>
+
+        <script src="script.js"></script>
+        
+        </body></html>
