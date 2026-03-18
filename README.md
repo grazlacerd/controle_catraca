@@ -1,3 +1,3 @@
 # Projeto Portaria
 
-Um dos meus primeiros projetos realizados em sala de aula com JavaScript. A ideia foi criar um site para o um cadastro imáginario onde tenha a verifição de senhas forte, onde o JavaScript é responsável por evitar a sequência de 1 ao 8 e senhas curtas.
+Um dos meus primeiros projetos realizados em sala de aula com JavaScript. A ideia foi criar um site que tenha a verficação de idade e PasseVip, onde menores de 18 anos não tenham acesso e pessoas com PasseVip tehnam entrada gratuita.
